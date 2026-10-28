@@ -133,13 +133,14 @@ export const portfolioData: PortfolioData = {
     { label: 'About', href: '#about' },
     { label: 'Experience', href: '#experience' },
     { label: 'Projects', href: '#projects' },
+    { label: 'Skills', href: '#skills' },
     { label: 'Certifications', href: '#certifications' },
     { label: 'Contact', href: '#contact' },
   ],
   hero: {
     eyebrow: 'CHAKRAPONG PINDONTREE / DATA SCIENCE',
-    headline: 'Data. Insight.\nImpact.',
-    subheadline: 'I explore data, build predictive models, and create visualizations that make complex problems easier to understand.',
+    headline: 'Making Data Work.',
+    subheadline: 'Applying Python, Machine Learning, and Power BI to forecast production trends, identify bottlenecks, and support data-driven decisions.',
     primaryCta: { text: 'View my work', href: '#projects' },
     secondaryCta: { text: 'About me', href: '#about' },
   },
@@ -156,12 +157,12 @@ export const portfolioData: PortfolioData = {
     introSubheading: 'Data Science student at Silpakorn University.',
     paragraphs: [
       'I study Data Science at Silpakorn University. I enjoy exploring datasets, finding patterns, and figuring out what the results actually mean.',
-      'During my internship at BELTON, I worked on forecasting, classification, and Power BI dashboards using real production data.',
+      'During my internship at Manufactory Industrial, I worked on forecasting, classification, and Power BI dashboards using real production data.',
       'I try to understand the question first, choose an approach that fits, and explain the results in a way people can use.',
     ],
     bio: {
       paragraph1: "I'm Chakrapong, a Data Science student at Silpakorn University. I like working with data, from exploring patterns to building models and visualizations.",
-      paragraph2: 'My internship at BELTON gave me the chance to work with real production data. It also taught me to look beyond model scores and think about how results will be understood and used.',
+      paragraph2: 'My internship at Manufactory Industrial gave me the chance to work with real production data. It also taught me to look beyond model scores and think about how results will be understood and used.',
     },
     process: {
       label: 'HOW I APPROACH DATA',
@@ -181,7 +182,7 @@ export const portfolioData: PortfolioData = {
       {
         id: 'exp-1',
         role: 'Data Analyst Trainee (Cooperative Education)',
-        organization: 'BELTON TECHNOLOGY (THAILAND) CO., LTD.',
+        organization: 'Beltin Industry (THAILAND) CO., LTD.',
         period: 'Jul – Oct 2026',
         location: 'Pathum Thani, Thailand',
         description: [

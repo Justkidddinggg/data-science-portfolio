@@ -399,3 +399,6 @@ html, body { background: #fff; color: #1d2d45; }
   .editorial-id-lanyard { top: -78px; }
   .editorial-process { min-width: 0; }
 }
+
+/* Hero role subtitle */
+.editorial-hero-role { color:#dbe7f8; font-size:clamp(15px,1.4vw,19px); font-weight:600; letter-spacing:.01em; margin:12px 0 12px; }

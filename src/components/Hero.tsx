@@ -18,7 +18,8 @@ export const Hero: React.FC = () => {
           <motion.div initial={reducedMotion ? false : {opacity: 0, y: 16}} animate={{opacity:1,y:0}} transition={{duration:.65}}>
             <div className="editorial-eyebrow">Chakrapong Pindontree <span className="editorial-eyebrow-rule" /></div>
             <div className="editorial-overline">Data Science Portfolio</div>
-            <h1>Data. Insight.<br /><span>Impact.</span></h1>
+            <h1>{hero.headline}</h1>
+            <p className="editorial-hero-role">Data Science | Analytics &amp; AI</p>
             <p className="editorial-lede">{hero.subheadline}</p>
             <div className="editorial-actions">
               <button className="editorial-primary" onClick={() => scrollTo('#projects')}>View Projects <ArrowRight size={17}/></button>
